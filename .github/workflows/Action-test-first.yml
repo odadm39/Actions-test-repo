@@ -13,10 +13,6 @@ jobs:
     - name: First message
       run : Echo "Hello workflow"
    
-
-
-
-jobs: 
   Print-message-two:
     runs-on: ubuntu-latest
     steps:
