@@ -2,7 +2,7 @@ name: First-test-workflow
 on: 
   push:
     branches: 
-      - master
+      - main
 jobs: 
   Print-message-one:
     runs-on: ubuntu-latest
