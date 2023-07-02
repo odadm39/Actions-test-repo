@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: First message
-      run : Echo "Hello workflow"
+      run : echo "Hello workflow"
    
   Print-message-two:
     runs-on: ubuntu-latest
     steps:
     - name: Second message
-      run : Echo "You did it"
+      run : echo "You did it"
