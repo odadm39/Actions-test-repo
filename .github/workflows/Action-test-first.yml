@@ -3,7 +3,7 @@ on:
   push:
     branches: 
       - main
-jobs: 
+jobs:
   Print-message-one:
     runs-on: ubuntu-latest
     steps:
